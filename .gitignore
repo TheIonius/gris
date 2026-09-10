@@ -1,0 +1,78 @@
+# --- Build Targets & Artifacts ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+dist/
+dist-ssr/
+build/
+
+# --- Node & Frontend Dependencies ---
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.vite/
+
+# --- Python & Scripts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+
+# --- IDEs & Editors ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+!.vscode/extensions.json
+.project
+.classpath
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swp
+
+# --- Databases & Local State ---
+*.db
+*.db-shm
+*.db-wal
+/data/
+*.sqlite
+*.sqlite3
+
+# --- Environment & Credentials ---
+.env
+.env.*
+!.env.example
+
+# --- Logs & Scratch ---
+logs/
+*.log
+scratch/
+tmp/
+*.tmp
+
+# --- Operating Systems ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
