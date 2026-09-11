@@ -1,0 +1,4 @@
+# Gris ETL & Offline Data Pipeline Dependencies
+duckdb>=0.9.2
+pyarrow>=14.0.0
+numpy>=1.24.0
