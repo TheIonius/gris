@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gris-api
+  datasource:
+    url: jdbc:sqlite:gris.db
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      connection-init-sql: "PRAGMA busy_timeout = 5000;"
+
+gris:
+  simulation:
+    threads: 8
+  security:
+    api-key: ${GRIS_API_KEY:}
+    allowed-origins: ${GRIS_ALLOWED_ORIGINS:*}

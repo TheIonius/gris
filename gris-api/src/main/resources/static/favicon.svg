@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="7" fill="#0f172a"/>
+  <!-- Discrete-event timeline track -->
+  <line x1="8" y1="16" x2="13" y2="16" stroke="#475569" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"/>
+  <!-- Geometric Gris Monogram -->
+  <path d="M23.5 11 C22 8 19 6.5 15.5 6.5 C10.2 6.5 6.5 10.8 6.5 16 C6.5 21.2 10.2 25.5 15.5 25.5 C20.5 25.5 23.8 22 24.5 17.5 H15" 
+        fill="none" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Active Simulation Event Node -->
+  <circle cx="20.5" cy="17.5" r="2.2" fill="#38bdf8"/>
+</svg>

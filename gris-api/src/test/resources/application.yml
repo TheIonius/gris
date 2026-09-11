@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:file:memdb1?mode=memory&cache=shared
+    driver-class-name: org.sqlite.JDBC
+
+gris:
+  simulation:
+    threads: 4
